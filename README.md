@@ -115,6 +115,27 @@ Level AA
 - Landmarks
 - Headings `<h1>` - `<h6>`
 
+### 2.2 List
+
+- Ordered List `<ol />`, Unordered List `<ul />`, Description List `<dl />`
+- Why bother? => Improved Semantics
+  > Screen readers
+  >
+  > - Same experience
+  > - Discoverable Lists
+  > - Type of List
+  > - Total Items in List
+  > - Item Number (ex, “Item 3 of 5”)
+
+#### Info and Relationships
+
+- Information, structure, and relationships conveyed
+through presentation can be programmatically
+determined or are available in text.
+  - Logical structure
+  - Visual cues, via CSS, must be conveyed non-visually via
+  semantics
+
 ## Credits
 
 All credits goes for pluralsight course
