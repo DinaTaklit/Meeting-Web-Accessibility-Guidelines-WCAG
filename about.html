@@ -1,10 +1,15 @@
 <!doctype html>
-<html lang="en">
+<!--Document Structure and Landmarks: Setup doctype to increase accessibility -->
+<html lang="en"> <!--Document Structure and Landmarks: setup the language-->
 
 <head>
   <meta charset="utf-8" />
+  <!--Document Structure and Landmarks: ecoding -->
+
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <!--Document Structure and Landmarks: Unique page title (title) -->
   <title>About Acme Web Design</title>
+   <!--Document Structure and Landmarks: Text resizing via viewport and relative units (em or rem) -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="description" content="We build and design the best sites!" />
 
@@ -14,6 +19,7 @@
 
 <body>
   <header class="header">
+    <!--Document Structure and Landmarks: Landmarks => header instead of div -->
     <a class="skip-link" href="#main">Skip to main</a>
     <div class="wrapper">
       <img class="header-logo" src="images/logo.png" alt="" />
@@ -26,7 +32,7 @@
     </div>
     <button id="menu-trigger" type="button">Menu</button>
   </header>
-
+   <!--Document Structure and Landmarks: Landmarks => nav add aria-label to distinguish betw diff navs -->
   <nav id="main-nav" class="navigation" aria-label="site">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -44,16 +50,17 @@
 
   <div id="wrapper">
     <main id="main" class="main" tabindex="-1">
+      <!--Document Structure and Landmarks: Headings <h1>-<h6> -->
       <h1>About</h1>
       <p>
         Acme makes the best web sites. There is nobody better. Please take the time to read about our awesome company.
       </p>
-
+      <!--Document Structure and Landmarks: Headings <h1>-<h6> -->
       <h2>Who We Are</h2>
       <p>
         We are a couple of hip people that totally rock at life, and we make the best websites.
       </p>
-
+       <!--Document Structure and Landmarks: Headings <h1>-<h6> -->
       <h3>Meet the Staff</h3>
       <ul>
         <li>Pam Beesly, Senior Designer</li>
@@ -62,15 +69,16 @@
         <li>Michael Scott, Best Boss</li>
       </ul>
 
-
+      <!--Document Structure and Landmarks: Headings <h1>-<h6> -->
       <h2>What We Do</h2>
       <p>We make the best websites!</p>
-
+      <!--Document Structure and Landmarks: Headings <h1>-<h6> -->
       <h2>Why We Do It</h2>
       <p>We believe everyone should have an awesome site!</p>
     </main>
-
+    <!--Document Structure and Landmarks: Landmarks => aside -->
     <aside class="sidebar">
+      <!--Document Structure and Landmarks: Landmarks => nav + aria-label -->
       <nav class="navigation" aria-label="page">
         <ul>
           <li><a href="link1.html">Sub Link 1</a></li>
@@ -81,8 +89,9 @@
       </nav>
     </aside>
   </div>
-
+<!--Document Structure and Landmarks: Landmarks => footer -->
   <footer class="footer">
+    <!--Document Structure and Landmarks: Landmarks => nav + aria-label -->
     <nav class="navigation" aria-label="site">
       <ul>
         <li><a href="index.html">Home</a></li>
