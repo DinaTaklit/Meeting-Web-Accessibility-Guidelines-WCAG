@@ -91,6 +91,30 @@ expected to require
 conformance to WCAG 2.1
 Level AA
 
+## 2. HTML
+
+- HTML = SEMANTIC = ACCESSIBILITY
+- **Web Stack**: HTML, CSS, JavaScript
+- **Full Web Stack**: HTML, CSS, JavaScript, Area
+- => SEMANTIC HTML IS ALREADY ACCESSIBLE!
+
+### 2.1 Document Structure and Landmarks
+
+#### Documnt Structure
+
+- Page Structure => Content Structure
+- Machine Readable Code => Human Readable Code
+- Landmarks => Headings
+
+#### Summary
+
+- <!doctype>, language, and encoding
+- Text resizing via viewport and relative
+- units (em or rem)
+- Unique Page `<title>`
+- Landmarks
+- Headings `<h1>` - `<h6>`
+
 ## Credits
 
 All credits goes for pluralsight course
