@@ -136,6 +136,78 @@ determined or are available in text.
   - Visual cues, via CSS, must be conveyed non-visually via
   semantics
 
+### 2.3 Navigation and skip links
+
+- Consistent navigation
+- Multiple ways to find pages/ content
+- Meaningful link content
+- Consistent overall interface
+- Skip Links
+
+#### Level AA 1.4.4 – Resize Text
+
+Except for captions and images of text, text can be
+resized without assistive technology up to 200 percent
+without loss of content or functionality.
+
+#### Level AA 1.4.5 – Images of Text
+
+If the technologies being used can achieve the visual
+presentation, text is used to convey information rather
+than images of text.
+
+#### Level AA 3.2.3 – Consistent Navigation
+
+Navigational mechanisms that are repeated on multiple
+Web pages within a set of Web pages occur in the same
+relative order each time they are repeated, unless a
+change is initiated by the user.
+
+#### Level AA 2.4.5 – Multiple Ways
+
+More than one way is available to locate a Web page
+within a set of Web pages except where the Web Page is
+the result of, or a step in, a process.
+
+#### Level AA 3.2.4 – Consistent Identification
+
+Components that have the same functionality within a
+set of Web pages are identified consistently.
+
+> Buttons/ Icons should be labelled the same for similar  functionality. Don’t switch things up!
+
+#### Level A 2.4.4 – Link Purpose
+
+The purpose of each link can be determined from the link
+text alone or from the link text together with its
+programmatically determined link context, except where the
+purpose of the link would be ambiguous to users in general.
+
+- Read More?
+  - Visually Hidden Text - Frameworks => Bootstrap sr-only, Foundation show-for-sr
+  - Visually Hidden CSS
+  
+   ```css
+      .visuallyHidden {
+      border: 0;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      }
+   ```  
+
+#### Level A 2.4.1 – Bypass Blocks
+
+A mechanism is available to bypass blocks of content
+that are repeated on multiple Web pages.
+
+- **Skip Link**: A shortcut link directly to the main content
+
 ## Credits
 
 All credits goes for pluralsight course
