@@ -14,13 +14,17 @@
 
 <body>
   <header class="header">
+    <!--Navigation & Skip Links => Bypass a block: since there is a search above we can skip navigation to the main menu directly =>  Skip Link: A shortcut link directly to the main content -->
     <a class="skip-link" href="#main">Skip to main</a>
     <div class="wrapper">
       <img class="header-logo" src="images/logo.png" alt="" />
       <span class="header-title">Acme Web Design, we are the best!</span>
+      <!--Navigation & Skip Links => Multiple ways: provide multiple ways to locate a web page -->
+      <!-- Navigation & Skip Links => Add role and type for more semantic-->
       <form action="/search" method="POST" role="search">
         <label class="visuallyHidden visible@768" for="query">Search</label>
         <input id="query" type="search" />
+         <!--Navigation & Skip Links => Consistent Identification: Buttons/ Icons should be labelled the same for similar functionality.-->
         <button>Search</button>
       </form>
     </div>
@@ -28,7 +32,9 @@
   </header>
 
   <nav id="main-nav" class="navigation" aria-label="site">
-    <!-- List: Use unordered list to improve Semantics -->
+    <!-- Navigation & Skip Links =>  relationships and info guide lines: wrap anchor tags in an unrodered list add more semantics to the navigation -->
+    <!-- Navigation & Skip Links =>  Resize Text, Image text: remove images in the anchor tag use text to convey information rather then image text -->
+    <!--Navigation & Skip Links =>  Consist navigation: should keep the same order of navigation elements-->
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -64,6 +70,7 @@
 
     <aside class="sidebar">
       <nav class="navigation" aria-label="page">
+        <!--- Navigation & Skip Links =>  Info & Relationship: use unorded list instead of anchor element only for consistency -->
         <ul>
           <li><a href="link1.html">Sub Link 1</a></li>
           <li><a href="link2.html">Sub Link 2</a></li>
@@ -76,6 +83,7 @@
 
   <footer class="footer">
     <nav class="navigation" aria-label="site">
+      <!---Navigation & Skip Links =>  Info & Relationship: use unorded list instead of anchor element only for consistency -->
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -87,6 +95,8 @@
     </nav>
     <p>Copyright 2016, All rights reserved.</p>
     <p>Best if viewed on my monitor</p>
+    <!--Navigation & Skip Links => Multiple ways: provide multiple ways to locate a web page -->
+    <!--Navigation & Skip Links => Link purpose: use descriptive link Site map instead of here word -->
     <p><a href="sitemap.html">Site Map</a></p>
   </footer>
   <script src="js/navigation.js"></script>
