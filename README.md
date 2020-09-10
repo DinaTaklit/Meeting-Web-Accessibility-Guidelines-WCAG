@@ -436,6 +436,10 @@ text alternative that serves the equivalent purpose.
 
 > Whatever is conveyed visually needs to be conveyed programatically (Perceivable)
 
+### 3.2 Background Images via CSS
+
+- Add hidden span to explain the contenet of the background image see portfolio browser support
+
 ## Credits
 
 All credits goes for pluralsight course
