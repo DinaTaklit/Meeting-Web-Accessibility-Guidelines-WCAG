@@ -487,6 +487,58 @@ text alternative that serves the equivalent purpose.
 - Inline
 - Link
 
+### 3.5 Video
+
+#### Level A – 1.2.3 Audio Description or Media Alternative (Prerecorded)
+
+An alternative for time-based media or audio description
+of the prerecorded video content is provided for
+synchronized media.
+
+#### =>: Level A 1.1.1 – Non-text Content
+
+All non-text content that is presented to the user has a
+text alternative that serves the equivalent purpose.
+
+#### Provide Captions
+
+- **Level A 1.2.1 – Captions (Prerecorded)**
+  - Captions are provided for all prerecorded audio content in synchronized media
+- **Level AA 1.2.4 – Captions (Live)**
+  - Captions are provided for all live audio content in synchronized media
+
+#### Types of Captions
+
+- **Open**: Always visible, embedded/ burned into videos
+- **Closed**: Overlay, toggled on/ off by user
+
+#### Captioning Prerecorded Video
+
+- **YouTube**
+  - Auto-subtitle
+  - Upload a transcript and sync
+  - Manual entry
+- **Video Captioning Services**
+- **Manual**
+
+#### Captioning Live Video
+
+- **Communication Access Realtime**
+- **Communication (CART)**
+  - Live, professional stenographers/subtitlers
+
+#### Level AA – 1.2.5 Audio Description (Prerecorded)
+
+Audio description is provided for all prerecorded video
+content in synchronized media.
+
+#### Creating Audio Description
+
+- **Narrate non-visual cues**
+  - "Door slams", "Thunder and lightning outside window", "Pam covers mouth while laughing as Dwight discovers his
+  stapler is molded in jello"
+- **Have subjects introduce themselves and describe surroundings**
+
 ## Credits
 
 All credits goes for pluralsight course
