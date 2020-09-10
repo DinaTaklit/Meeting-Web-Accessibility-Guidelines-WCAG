@@ -208,6 +208,40 @@ that are repeated on multiple Web pages.
 
 - **Skip Link**: A shortcut link directly to the main content
 
+### 2.4 Table
+
+- Used to display data into rows and columns of cells
+- Tables should not be used for layout!
+- Parts of a Table
+  - `<caption>`
+  - `<thead>, <tfoot>, <tbody>`
+  - `<th>`
+  - scope and headers
+- Complex tables should have a summary of how the table data is structured
+- `<table summary="…">` is duprecated in HTML5
+- An easy solution: add to the `<caption>`
+
+#### Table Issues
+
+- Complex tables are complex to navigate
+- Personal user settings
+- Screen Reader/ Browser Combinations
+
+> It’s your job to add the proper content using the proper markup
+
+- Avoid complex tables
+- Avoid nesting and spanned columns/ rows
+- Flatten data as much as possible
+
+#### Summary
+
+- Tables for tabular data, not layout
+- Table grouping: `<thead>`, `<tfoot>`,`<tbody>`
+- `<th>` vs `<td>`
+- Associating headers and cells: scope vs headers
+- Simple vs Complex Tables
+
+
 ## Credits
 
 All credits goes for pluralsight course
