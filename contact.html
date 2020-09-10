@@ -76,12 +76,16 @@
       </div>
 
       <section id="errors" aria-live="assertive" tabindex="-1"></section>
-
+      <!-- First try to meet the guidlines in in section 2.5 Forms-->
+      <!-- Add novalidate to the form to prevent default html validation if 
+        we do our oun validation we can provide more accessibility-->
       <form id="contact" action="/contact.php" method="POST" novalidate>
 
-
+        <!-- Use labeles give an information what is the field for-->
         <label for="fullname">
+          <!-- Indicate if the field is required or not-->
           Name (Required):
+          <!-- Add error message in case of error it very useful for screen reders doing it that way-->
           <span class="error-message">Name cannot be empty</span>
         </label>
         <input id="fullname" name="fullname" type="text" required autocomplete="name" />
@@ -95,8 +99,9 @@
 
         <label for="phone">Phone Number</label>
         <input id="phone" name="phone" type="tel" autocomplete="tel" />
-
+        <!-- Use fieldset to group elements that have some context-->
         <fieldset>
+          <!-- The legend is mendatory once using fieldset I think hhh I think I come across this in the cource hhh-->
           <legend>Phone Number Type</legend>
 
           <label>
