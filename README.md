@@ -381,6 +381,61 @@ able to either turn off, adjust, or extend the time limit
 - Color
 - Keyboard Navigation/ Focus Indication
 
+## 3. Media
+
+### Level A 1.1.1 – Non-text Content
+
+All non-text content that is presented to the user has a
+text alternative that serves the equivalent purpose.
+
+### Media Overview
+
+- Images
+  - Background Images via CSS
+  - SVG
+- Audio
+- Video
+- Additional Media Guidelines
+
+### 3.1 Images
+
+- Assistive technologies cannot read text in images
+
+#### => Level AA 1.4.5 – Images of Text
+
+If the technologies being used can achieve the visual
+presentation, text is used to convey information rather
+than images of text
+
+#### => Level A 1.1.1 – Non-text Content
+
+All non-text content that is presented to the user has a
+text alternative that serves the equivalent purpose.
+
+- All `<img>`’s must use the **alt** attribute!
+
+#### Alt Attribute Usage
+
+- Error downloading
+- Images turned off
+
+> Images that are for decoration only should have an empty alt attribute, `alt=""`
+
+- Screen readers ignore images with empty alt attributes
+
+#### Tips for Writing ALT Text
+
+- **Don’t describe the image literally**
+  - Ex, "brown couch, with brown pillow on the left with alphabet imprint and pencil
+  on top, with a laptop next to it"
+- **Avoid words like "picture of" or "image of"**
+  - Assistive technologies will note image**
+- **Do describe the meaning or purpose of the image**
+  - What was the point? What were you thinking?
+- **Include any text in the image**
+
+> Whatever is conveyed visually needs to be conveyed programatically (Perceivable)
+
 ## Credits
 
 All credits goes for pluralsight course
