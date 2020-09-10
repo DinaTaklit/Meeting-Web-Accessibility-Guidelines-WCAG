@@ -640,6 +640,66 @@ cancelled or deferred.
 Functionality operated by device motion can also be
 operated by UI components.
 
+### 4.4 Additional Responsive Guidelines
+
+- Be careful with off screen content
+- Proper Ways to Accessibly Hide Content:
+  - hidden attribute `[hidden]` `{ display: none; }`
+  - `display: none;`
+  - `visibility: hidden;`
+  - `aria-hidden="true"`
+- Use relative units, either em, rem, %
+
+#### Level AA 1.4.12 – Text Spacing
+
+No loss of content or functionality occurs by setting the following:
+  • Line height is 1.5x font size
+  • 2x font size spacing after paragraphs
+  • Letter spacing at least .12x font size
+  • Word space at least .16x font size
+
+```css
+html, body {
+font-size: 1rem;
+line-height: 1.5;
+letter-spacing: .12rem;
+word-spacing: .16rem;
+}
+p + p {
+margin-top: 2rem;
+}
+```
+
+- Avoid clipping content or introducing scrollbars
+
+#### Level AA 1.4.10 – Reflow
+
+Content can be presented without loss of information or
+functionality, and without requiring scrolling in two dimensions
+for:
+  • Vertical scrolling content at a width equivalent to 320 CSS
+  pixels
+  • Horizontal scrolling content at a height equivalent to 256 CSS
+  pixels
+
+- Maintain color contrast with text over images
+
+### Responsive Web Design and Accessibility Summury
+
+- **Switching Context**
+  - On focus/ input
+- **Order of content**
+  - Visual order must match DOM order
+  - Floats, absolute positioning, flex order
+- **Focus order**
+  - Logical, Predictable
+- **Mobile devices**
+  - Orientation
+  - Gestures and motion actuation
+- **Additional Guidelines**
+  - Off screen content
+  - Relative units
+
 ## Credits
 
 All credits goes for pluralsight course
