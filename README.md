@@ -618,6 +618,28 @@ a change of context.
 - Don’t programmatically shift focus when not expected
 - Notify users up front that the change will happen
 
+### 4.3 Mobile Devices
+
+#### Level AA 1.3.4 – Orientation
+
+Content does not restrict its view and operation to a
+single display orientation.
+
+#### Level A 2.5.1 – Pointer Gestures
+
+All functionality that uses gestures can be operated with
+a single pointer.
+
+#### Level A 2.5.2 – Pointer Cancellation
+
+For functionality operated using a single point can be
+cancelled or deferred.
+
+#### Level A 2.5.4 – Motion Actuation
+
+Functionality operated by device motion can also be
+operated by UI components.
+
 ## Credits
 
 All credits goes for pluralsight course
