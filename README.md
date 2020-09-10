@@ -589,6 +589,35 @@ does not automatically cause a change of context unless
 the user has been advised of the behavior before using
 the component.
 
+### 4.2 Order of Content/ Focus
+
+#### Level A 1.3.2 – Meaningful Sequence
+
+When the sequence in which content is presented
+affects its meaning, a correct reading sequence can be
+programmatically determined.
+
+- Visual order must match DOM order
+- Assistive technologies access page content via markup/ DOM
+- Combination of screen magnifiers and readers
+
+#### Level A 2.4.3 – Focus Order
+
+If a Web page can be navigated sequentially and the
+navigation sequences affect meaning or operation,
+focusable components receive focus in an order that
+preserves meaning and operability.
+
+- Focus order must be in a logical and expected manner
+
+#### Level A 3.2.1 – On Focus
+
+When any component receives focus, it does not initiate
+a change of context.
+
+- Don’t programmatically shift focus when not expected
+- Notify users up front that the change will happen
+
 ## Credits
 
 All credits goes for pluralsight course
