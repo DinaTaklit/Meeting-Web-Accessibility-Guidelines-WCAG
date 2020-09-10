@@ -48,11 +48,15 @@
       <p>
         Here is a list of awesome products you can buy. If you don't see something you need, let us know!
       </p>
-
+      <!-- Use table to represent information that require table representation instead of div and spans -->
+      <!-- Avoid complex and nested table if possible and make things more simple-->
+      <!--Use thead, tbody, tfoot element that provide more accessiblity -->
       <table>
+        <!-- A caption it is a very important elemnt that give information what is the table about-->
         <caption>List of products</caption>
         <thead>
           <tr>
+            <!-- Use scope col and row to tell screen readers that is a row or col -->
             <th scope="col">Product</th>
             <th scope="col">Description</th>
             <th scope="col">Cost</th>
@@ -80,6 +84,7 @@
       <table>
         <caption>
           Bundles
+          <!--Give summary would be a very good option to increase accessiblity-->
           <span class="visuallyHidden">: This table has a list of bundles,
           which are collections of products and services. The first column
           is the product or service and the second column is the cost. Each
@@ -96,6 +101,7 @@
             <th id="basic" colspan="2" scope="colgroup">Basic Bundle</th>
           </tr>
           <tr>
+            <!-- Headers also serve at this level if you have complexe table-->
             <td headers="basic prod">Basic Web Server</td>
             <td headers="basic cost">$199</td>
           </tr>
