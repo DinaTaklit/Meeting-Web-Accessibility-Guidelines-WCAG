@@ -539,6 +539,37 @@ content in synchronized media.
   stapler is molded in jello"
 - **Have subjects introduce themselves and describe surroundings**
 
+### 3.6 Additional Media Guidelines
+
+#### Level A 1.4.2 – Audio Control
+
+If any audio on a Web page plays automatically for more
+than 3 seconds, either a mechanism is available to pause or
+stop the audio, or a mechanism is available to control audio
+volume independently from the overall system volume level.
+
+#### Level A 2.2.2 – Pause, Stop, Hide
+
+For moving, blinking, scrolling, or auto-updating
+information provide a mechanism to pause, stop, or hide
+
+#### Level A 2.3.1 - Three Flashes or Below Threshold
+
+Web pages do not contain anything that flashes more
+than three times in any one second period
+
+> Any embedded media using `<iframe>` should have a label, via the "`title`" attribute (Level A 2.4.1, Level A 4.1.2)
+
+#### Media Summary
+
+- **Non-text Content**
+  - Alternate text for images, via “alt”
+  attribute
+  - Transcripts
+  - Captions and audio description
+- **Controls for Audio and auto-updating content**
+- Flashing
+
 ## Credits
 
 All credits goes for pluralsight course
