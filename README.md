@@ -570,6 +570,25 @@ than three times in any one second period
 - **Controls for Audio and auto-updating content**
 - Flashing
 
+## 4. Responsive Web Design and Accessibility
+
+### Responsive Overview
+
+- Switching context
+- Order of content
+- Focus order
+- Mobile devices
+- Additional responsive guidelines
+
+### 4.1 Switching Context
+
+#### Level A 3.2.2 – On Input
+
+Changing the setting of any user interface component
+does not automatically cause a change of context unless
+the user has been advised of the behavior before using
+the component.
+
 ## Credits
 
 All credits goes for pluralsight course
