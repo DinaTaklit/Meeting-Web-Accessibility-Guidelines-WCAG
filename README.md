@@ -440,6 +440,14 @@ text alternative that serves the equivalent purpose.
 
 - Add hidden span to explain the contenet of the background image see portfolio browser support
 
+### 3.3 Background Images via CSS
+
+- **Add `role="img"` for semantics**
+- **Use the `<title>`**
+  - `<desc>` for expanded content, if necessary
+- **Use aria-labelledby referencing the `<title>`**
+  - aria-describedby to reference the `<desc>`
+
 ## Credits
 
 All credits goes for pluralsight course
