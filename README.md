@@ -448,6 +448,45 @@ text alternative that serves the equivalent purpose.
 - **Use aria-labelledby referencing the `<title>`**
   - aria-describedby to reference the `<desc>`
 
+### 3.4 Audio
+
+#### Examples of Audio-only
+
+- Podcasts
+- Radio newscast (recorded)
+- TV/ Movie sound bites
+
+#### Level A 1.2.1 - Audio-only and Videoonly (Prerecorded)
+
+For prerecorded audio-only and prerecorded video-only
+media, an alternative is provided that presents
+equivalent information.
+
+#### : Level A 1.1.1 – Non-text Content
+
+All non-text content that is presented to the user has a
+text alternative that serves the equivalent purpose.
+
+#### Creating Transcripts
+
+- Paid service
+- Speech Recognition
+  - Google Docs Voice Typing
+  - Windows Speech Recognition
+  - Apple Dictation
+  - Dragon Naturally Speaking
+- Manual
+
+#### Tips for Creating Transcripts
+
+- Include names of speakers
+- Describe everything
+
+#### Presenting Transcripts
+
+- Inline
+- Link
+
 ## Credits
 
 All credits goes for pluralsight course
